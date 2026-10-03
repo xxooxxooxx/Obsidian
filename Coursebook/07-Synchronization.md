@@ -1,6 +1,6 @@
 ---
 bibliography:
-- synchronization/synchronization.bib
+  - synchronization/synchronization.bib
 link-citations: true
 title: "**CS341 系统编程课程手册**"
 ---

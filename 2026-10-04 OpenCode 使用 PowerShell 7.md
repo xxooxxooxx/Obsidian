@@ -1,6 +1,16 @@
 
 https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.6
 
+要在当前的命令行中查看 PowerShell 的版本，请直接运行以下命令：
+
+powershell
+
+```
+$PSVersionTable
+```
+
+### 安装7
+
 Install the PowerShell 7 MSIX package:
 
 PowerShell
@@ -16,6 +26,7 @@ PowerShell
 winget install --id Microsoft.PowerShell --source winget --installer-type wix
 ```
 
+### 区别
 
 | 特性 | **第一条命令 (MSIX / 默认)** | **第二条命令 (`--installer-type wix` / MSI)** |
 | :--- | :--- | :--- |
